@@ -1,12 +1,10 @@
-numbers = [1,2,3]
 
-def square_array(numberes)
-  result=array.new(numbers.size)
+def square_array(array)
   count = 0
-  while count < numbers.size 
-    result[count]=numbers[count]**2 
-    count+=1
+  new_array = []
+  while count < array.length
+    array.index ** 2 
+    count += 1 
   end
-  result
+  square_array(array)
 end
-
